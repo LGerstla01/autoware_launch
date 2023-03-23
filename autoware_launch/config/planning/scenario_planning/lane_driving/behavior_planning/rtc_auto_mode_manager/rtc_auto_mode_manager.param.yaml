@@ -13,6 +13,8 @@
       - "avoidance_right"
       - "goal_planner"
       - "start_planner"
+      # - "avoidance_by_lane_change_left"
+      # - "avoidance_by_lane_change_right"
       - "intersection_occlusion"
 
     default_enable_list:
@@ -28,4 +30,6 @@
       - "avoidance_right"
       - "goal_planner"
       - "start_planner"
+      - "avoidance_by_lane_change_left"
+      - "avoidance_by_lane_change_right"
       - "intersection_occlusion"
